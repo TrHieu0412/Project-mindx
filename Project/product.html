@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Technology Store</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://kit.fontawesome.com/ca82382d88.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/sub-brand.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-content container">
+        <div class="header-store">
+          <div class="header-logo-img">
+            <img src="./css/images/logo.png" alt="logo" />
+          </div>
+          <div class="header-store-name"><p>Technology Store</p></div>
+        </div>
+        <div class="header-loginandregister">
+          <i class="fa fa-user-lock icon"></i>
+          <div class="header-login">
+            <a href="./login.html">Đăng nhập</a>
+          </div>
+          <i class="fa fa-user icon"></i>
+          <div class="header-register">
+            <a href="./register.html">Đăng kí</a>
+          </div>
+        </div>
+      </div>
+      <div class="header-taskbar container">
+        <ul class="nav justify-content-start taskbar-items">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Trang chủ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">Về chúng Tôi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./product.html">Sản phẩm</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Liên hệ</a>
+          </li>
+        </ul>
+        <div class="header-seacrch-box">
+          <input type="" name="search" id="search-box" placeholder="Tìm kiếm" />
+          <div class="header-seacrch-icon"><i class="fa fa-search"></i></div>
+          <div class="header-cart icon-cart">
+            <i class="fa fa-shopping-cart i"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="bg-product container">
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./css/images/bg-product-1.webp"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./css/images/bg-product-2.webp"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./css/images/bg-product-3.webp"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="product-title-main">
+      <p>Sản phẩm cửa hàng</p>
+    </div>
+    <!-- tạo list sản phẩm laptop -->
+    <div id="body" class="container"></div>
+    <!-- thêm sản phẩm vào giỏ hàng -->
+    <div class="addCard">
+      <!-- <div class="line-product">
+         <div class="name-product">
+           <img src="https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/t/e/text_ng_n_22_.png" alt="laptop">
+           <h3>Laptop MSI Modern 14 B11MOU-1032VN</h3>
+         </div>
+         <div class="product-price">33.490.000&nbsp;₫</div>
+       </div> -->
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <div class="footer">
+        <div class="footer-title">
+          <h1>Technology Store</h1>
+          <p>Cửa hàng công nghệ số 1 Việt Nam</p>
+        </div>
+
+        <div class="footer-page">
+          <h3>Thông tin</h3>
+          <div class="footer-home footer-page">
+            <a href="index.html">Trang chủ</a>
+          </div>
+          <div class="footer-about footer-page">
+            <a href="about.html">Giới thiệu</a>
+          </div>
+          <div class="footer-product footer-page">
+            <a href="product.html">Sản phẩm</a>
+          </div>
+          <div class="footer-contact footer-page">
+            <a href="contact.html">Liên hệ</a>
+          </div>
+        </div>
+        <div class="footer-time">
+          <h3>Thời gian hoạt động</h3>
+          <span>Thứ 2: 8AM - 23PM</span>
+          <span>Thứ 3: 8AM - 23PM</span>
+          <span>Thứ 4: 8AM - 23PM</span>
+          <span>Thứ 5: 8AM - 23PM</span>
+          <span>Thứ 6: 8AM - 23PM</span>
+          <span>Thứ 7: 9AM - 21PM</span>
+          <span>Chủ nhật: 9AM - 21PM</span>
+        </div>
+        <div class="footer-inf">
+          <h3>Hỗ trợ khách hàng</h3>
+          <div class="footer-phone-number">
+            <i class="fa fa-phone icon"></i>
+            <p>012345678</p>
+          </div>
+          <div class="footer-email">
+            <i class="fa fa-envelope icon"></i>
+            <p>Technology@gmail.com</p>
+          </div>
+          <div class="footer-link">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-google"></i>
+          </div>
+        </div>
+      </div>
+      <div class="produce-by container">
+        <h1>Copyright © 2023. All rights reserved by Genz tập code</h1>
+      </div>
+    </footer>
+
+    <script src="./js/javascript.js"></script>
+    <script src="./js/product.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
