@@ -487,6 +487,23 @@
   }
   
 /* about page */
+.about-feature-title{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    padding-top: 30px;
+}
+.about-feature-title h1{
+   width: 500px;
+   border-bottom: 1px solid black;
+}
+.feature-item{
+  display: flex;
+  text-align: center;
+  gap:20px;
+  justify-content: center;
+  padding: 20px;
+}
 .about-marquee-title{
     font-size: 40px;
     font-weight: 500;
@@ -504,53 +521,124 @@
 .about-marquee img{
     height: 50px;
 }
-.about-produce-title{
-    font-size: 40px;
-    font-weight: 500;
-    margin-bottom: 40px;
-    padding-top: 30px;
+.about-produce {
+  margin-top: 50px;
 }
-.about-produce-title h1{
-    border-bottom: 1px solid black;
-    width: 500px;
-    margin-bottom: 40px;
+.about-produce-title {
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 40px;
+  padding-top: 30px;
 }
-.about-produce .about-produce-container{
+.about-produce-title h1 {
+  border-bottom: 1px solid black;
+  width: 500px;
+  margin-bottom: 40px;
+}
+.about-produce .about-produce-container {
   display: flex;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
-  gap: 30px;
-  justify-content: space-around;
-  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+  /* justify-content: space-around; */
+  /* text-align: center; */
+  background: #ffffff;
+  box-shadow: 0px 6px 20px #ffe3de;
+  border-radius: 30px;
 }
-.about-produce .about-produce-container .about-produce-img{
+.about-produce .about-produce-container .about-produce-img {
   margin-bottom: 30px;
 }
 
-.about-produce .about-produce-container .about-produce-img img{
-    width: 300px;
-    height: 300px;
-    border-radius: 100%;
-    margin-bottom: 20px;
+.about-produce .about-produce-container .about-produce-img img {
+  width: 300px;
+  height: 300px;
+  margin: 40px;
+  border-radius: 50%;
+  /* border-radius: 100%; */
+  /* margin-bottom: 20px; */
 }
-.about-produce .about-produce-container .about-produce-inf{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
+.about-produce-img i:hover {
+  color: blueviolet;
 }
-.about-produce .about-produce-container .about-produce-inf h2{
-    font-size: 48px;
-    font-weight:700;
+.about-produce .about-produce-container .about-produce-inf {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+  width: 60%;
 }
-.about-produce .about-produce-container .about-produce-inf span{
-    font-size: 26px;
-    font-weight: 300;
+.about-produce .about-produce-container .about-produce-inf h2 {
+  font-size: 48px;
+  font-weight: 700;
+  /* width: 60%; */
 }
-.about-produce .about-produce-container .about-produce-link{
-    font-size: 30px;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+.about-produce .about-produce-container .about-produce-inf span {
+  font-size: 26px;
+  font-weight: 300;
+}
+.about-produce .about-produce-container .about-produce-link {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.about-title-infor{
+   margin-top: 100px;
+   text-align: center;
+   color: white;
+  max-width: 900px;
+  margin-bottom: 30px;
+  font-size: 20px
+  ;
+}
+.about-title-infor h1{
+  border-bottom: 1px solid white;
+  width: 500px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.outstanding {
+  margin-top: 100px;
+}
+.outstanding .outstanding-item {
+  display: flex;
+  padding: ;
+}
+.outstanding-infor {
+  text-align: left;
+  width: 100%;
+  height: auto;
+  padding: 56px;
+  background-color: #f7f8fa;
+}
+.outstanding-infor h2 {
+  font-family: "Myriad W08 Semibold", "Segoe UI", "Arial", "PingFang TC",
+    "Microsoft JhengHei", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 115%;
+  text-decoration: none;
+  margin-top: 0px;
+  color: #1b1b1c;
+}
+.outstanding-infor p {
+  font-family: "Myriad W08 Regular", "Segoe UI", "Arial", "PingFang TC",
+    "Microsoft JhengHei", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 170%;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  margin-top: 12px;
+}
+.outstanding-item img {
+  max-width: 600px;
+  min-width: 600px;
+  max-height: 350px;
+  min-height: 350px;
 }
 /* contact page */
 .back-home img {
